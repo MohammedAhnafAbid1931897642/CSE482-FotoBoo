@@ -1,0 +1,568 @@
+[08-Aug-2022 20:30:13 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'focusbdx_demo1'@'lxbd.alpha.net.bd' to database 'focusbdx_fotoboo' in /home/focusbdx/public_html/482/reg.php on line 8
+[08-Aug-2022 20:30:35 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'focusbdx_demo1'@'lxbd.alpha.net.bd' to database 'focusbdx_fotoboo' in /home/focusbdx/public_html/482/log.php on line 13
+[08-Aug-2022 20:30:37 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'focusbdx_demo1'@'lxbd.alpha.net.bd' to database 'focusbdx_fotoboo' in /home/focusbdx/public_html/482/log.php on line 13
+[08-Aug-2022 20:37:29 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'focusbdx_demo1'@'lxbd.alpha.net.bd' to database 'focusbdx_fotoboo' in /home/focusbdx/public_html/482/log.php on line 13
+[08-Aug-2022 20:37:31 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'focusbdx_demo1'@'lxbd.alpha.net.bd' to database 'focusbdx_fotoboo' in /home/focusbdx/public_html/482/log.php on line 13
+[08-Aug-2022 20:43:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'focusbdx_demo1'@'lxbd.alpha.net.bd' to database 'focusbdx_fotoboo' in /home/focusbdx/public_html/482/test.php on line 8
+[08-Aug-2022 20:43:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on bool in /home/focusbdx/public_html/482/test.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/test.php on line 58
+[08-Aug-2022 20:44:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'focusbdx_fotoboo'@'lxbd.alpha.net.bd' (using password: YES) in /home/focusbdx/public_html/482/test.php on line 8
+[08-Aug-2022 20:44:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on bool in /home/focusbdx/public_html/482/test.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/test.php on line 58
+[08-Aug-2022 20:44:33 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'focusbdx_fotoboo'@'lxbd.alpha.net.bd' (using password: YES) in /home/focusbdx/public_html/482/test.php on line 8
+[08-Aug-2022 20:44:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on bool in /home/focusbdx/public_html/482/test.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/test.php on line 58
+[08-Aug-2022 20:47:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'focusbdx_demo1'@'lxbd.alpha.net.bd' to database 'focusbdx_fotoboo' in /home/focusbdx/public_html/482/test.php on line 8
+[08-Aug-2022 20:47:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on bool in /home/focusbdx/public_html/482/test.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/test.php on line 58
+[08-Aug-2022 20:47:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'focusbdx_demo1'@'lxbd.alpha.net.bd' to database 'focusbdx_fotoboo' in /home/focusbdx/public_html/482/test.php on line 8
+[08-Aug-2022 20:47:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on bool in /home/focusbdx/public_html/482/test.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/test.php on line 58
+[08-Aug-2022 20:50:00 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/set_cookie.php on line 4
+[08-Aug-2022 20:50:00 UTC] PHP Warning:  Undefined variable $_SESSION in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[08-Aug-2022 20:50:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[08-Aug-2022 20:50:29 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 4
+[08-Aug-2022 20:50:29 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 6
+[08-Aug-2022 20:50:34 UTC] PHP Warning:  Undefined array key "383f7ee86f9ab8fa772a8b47a5d7b482" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[08-Aug-2022 21:09:07 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 4
+[08-Aug-2022 21:09:07 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 6
+[08-Aug-2022 21:09:52 UTC] PHP Warning:  Undefined array key "851da781056d2beeb07eb3883312619c" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[08-Aug-2022 21:13:22 UTC] PHP Warning:  Undefined array key "851da781056d2beeb07eb3883312619c" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[08-Aug-2022 21:13:37 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[08-Aug-2022 21:14:37 UTC] PHP Warning:  Undefined array key "851da781056d2beeb07eb3883312619c" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[08-Aug-2022 21:15:29 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[08-Aug-2022 21:16:52 UTC] PHP Warning:  Undefined array key "851da781056d2beeb07eb3883312619c" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[08-Aug-2022 21:17:02 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[08-Aug-2022 21:23:05 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/set_cookie.php on line 4
+[08-Aug-2022 21:23:05 UTC] PHP Warning:  Undefined variable $_SESSION in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[08-Aug-2022 21:23:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[08-Aug-2022 21:23:30 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 4
+[08-Aug-2022 21:23:30 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 6
+[08-Aug-2022 21:23:53 UTC] PHP Warning:  Undefined array key "428cc7e8966239dc3b0a40c90f817a46" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[08-Aug-2022 21:24:21 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[08-Aug-2022 21:24:31 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[08-Aug-2022 21:24:39 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[08-Aug-2022 21:25:53 UTC] PHP Warning:  Undefined array key "428cc7e8966239dc3b0a40c90f817a46" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[08-Aug-2022 21:26:07 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[08-Aug-2022 21:27:00 UTC] PHP Warning:  Undefined array key "428cc7e8966239dc3b0a40c90f817a46" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[09-Aug-2022 08:45:36 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 3
+[09-Aug-2022 08:45:36 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 3
+[09-Aug-2022 08:50:34 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/set_cookie.php on line 4
+[09-Aug-2022 08:50:34 UTC] PHP Warning:  Undefined variable $_SESSION in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[09-Aug-2022 08:50:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[09-Aug-2022 08:51:22 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 4
+[09-Aug-2022 08:51:22 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 6
+[09-Aug-2022 08:52:40 UTC] PHP Warning:  Undefined array key "5929fe6fc30e450319fff4fa811f22ff" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[09-Aug-2022 08:53:13 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[09-Aug-2022 08:54:18 UTC] PHP Warning:  Undefined array key "5929fe6fc30e450319fff4fa811f22ff" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[09-Aug-2022 13:56:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/set_cookie.php on line 4
+[09-Aug-2022 13:56:44 UTC] PHP Warning:  Undefined variable $_SESSION in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[09-Aug-2022 13:56:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[09-Aug-2022 13:58:54 UTC] PHP Warning:  Undefined array key "5929fe6fc30e450319fff4fa811f22ff" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[10-Aug-2022 05:04:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/set_cookie.php on line 4
+[10-Aug-2022 05:04:53 UTC] PHP Warning:  Undefined variable $_SESSION in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[10-Aug-2022 05:04:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[10-Aug-2022 05:04:54 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 3
+[10-Aug-2022 05:05:31 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 4
+[10-Aug-2022 05:05:31 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 6
+[10-Aug-2022 05:06:35 UTC] PHP Warning:  Undefined array key "a3fe87050859455a4538b8783d601df5" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[10-Aug-2022 05:06:45 UTC] PHP Warning:  Undefined array key "a3fe87050859455a4538b8783d601df5" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[10-Aug-2022 05:06:47 UTC] PHP Warning:  Undefined array key "a3fe87050859455a4538b8783d601df5" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[10-Aug-2022 05:08:26 UTC] PHP Warning:  Undefined array key "a3fe87050859455a4538b8783d601df5" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[10-Aug-2022 05:10:09 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 3
+[10-Aug-2022 05:12:48 UTC] PHP Warning:  Undefined array key "4099b189909cfe813a5ea77934cc4938" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[10-Aug-2022 06:26:49 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/search.php on line 25
+[10-Aug-2022 08:12:49 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/search.php on line 25
+[10-Aug-2022 08:25:54 UTC] PHP Warning:  Undefined array key "5929fe6fc30e450319fff4fa811f22ff" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[11-Aug-2022 13:45:49 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/log.php on line 5
+[11-Aug-2022 13:45:49 UTC] PHP Warning:  Undefined array key "pass" in /home/focusbdx/public_html/482/log.php on line 7
+[11-Aug-2022 13:48:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 13:48:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/log.php:25) in /home/focusbdx/public_html/482/log.php on line 26
+[11-Aug-2022 13:52:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/reg.php:27) in /home/focusbdx/public_html/482/reg.php on line 28
+[11-Aug-2022 13:57:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 13:57:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 13:59:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 14:06:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 14:11:03 UTC] PHP Warning:  Undefined array key "4099b189909cfe813a5ea77934cc4938" in /home/focusbdx/public_html/482/listing_creator.php on line 77
+[11-Aug-2022 14:11:34 UTC] PHP Warning:  Undefined array key "4099b189909cfe813a5ea77934cc4938" in /home/focusbdx/public_html/482/listing_creator.php on line 153
+[11-Aug-2022 14:11:44 UTC] PHP Warning:  Undefined array key "4099b189909cfe813a5ea77934cc4938" in /home/focusbdx/public_html/482/listing_creator.php on line 153
+[11-Aug-2022 14:27:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 14:38:17 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/search.php on line 49
+[11-Aug-2022 14:38:24 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/listing_creator.php on line 43
+[11-Aug-2022 14:38:24 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/profile_creator.php on line 5
+[11-Aug-2022 14:38:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 14:40:19 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/search.php on line 49
+[11-Aug-2022 14:40:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 14:51:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 14:52:04 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/set_cookie.php on line 4
+[11-Aug-2022 14:52:04 UTC] PHP Warning:  Undefined variable $_SESSION in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[11-Aug-2022 14:52:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[11-Aug-2022 14:57:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 15:00:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/log.php:91) in /home/focusbdx/public_html/482/log.php on line 93
+[11-Aug-2022 15:03:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 59
+[11-Aug-2022 15:03:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 59
+[11-Aug-2022 15:04:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 59
+[11-Aug-2022 15:04:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 59
+[11-Aug-2022 15:04:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 15:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 15:05:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 15:26:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/index.php on line 7
+[11-Aug-2022 15:27:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 15:27:41 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/index.php on line 7
+[11-Aug-2022 15:28:03 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/index.php on line 7
+[11-Aug-2022 15:51:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 15:51:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/log.php:25) in /home/focusbdx/public_html/482/log.php on line 26
+[11-Aug-2022 15:51:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/log.php:25) in /home/focusbdx/public_html/482/log.php on line 26
+[11-Aug-2022 15:51:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/log.php:25) in /home/focusbdx/public_html/482/log.php on line 26
+[11-Aug-2022 15:51:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 15:52:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 15:53:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 16:01:46 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/search.php on line 53
+[11-Aug-2022 16:02:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 16:03:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 16:03:45 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/profile_creator.php on line 9
+[11-Aug-2022 16:04:22 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/listing_creator.php on line 48
+[11-Aug-2022 16:04:49 UTC] PHP Warning:  Undefined array key "q" in /home/focusbdx/public_html/482/portfolio.php on line 10
+[11-Aug-2022 16:04:49 UTC] PHP Warning:  Undefined variable $name in /home/focusbdx/public_html/482/portfolio.php on line 216
+[11-Aug-2022 16:04:49 UTC] PHP Warning:  Undefined variable $port_pic in /home/focusbdx/public_html/482/portfolio.php on line 218
+[11-Aug-2022 16:04:49 UTC] PHP Warning:  Undefined variable $category in /home/focusbdx/public_html/482/portfolio.php on line 302
+[11-Aug-2022 16:04:49 UTC] PHP Warning:  Undefined variable $location in /home/focusbdx/public_html/482/portfolio.php on line 328
+[11-Aug-2022 16:05:39 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/search.php on line 53
+[11-Aug-2022 16:05:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 16:06:04 UTC] PHP Warning:  Undefined array key "4099b189909cfe813a5ea77934cc4938" in /home/focusbdx/public_html/482/listing_creator.php on line 158
+[11-Aug-2022 16:07:30 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[11-Aug-2022 16:07:41 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[11-Aug-2022 16:08:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 16:09:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/set_cookie.php on line 4
+[11-Aug-2022 16:09:30 UTC] PHP Warning:  Undefined variable $_SESSION in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[11-Aug-2022 16:09:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[11-Aug-2022 16:09:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/set_cookie.php on line 4
+[11-Aug-2022 16:09:36 UTC] PHP Warning:  Undefined variable $_SESSION in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[11-Aug-2022 16:09:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/focusbdx/public_html/482/set_cookie.php on line 5
+[11-Aug-2022 16:10:06 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 4
+[11-Aug-2022 16:10:06 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 6
+[11-Aug-2022 16:11:52 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/search.php on line 53
+[11-Aug-2022 16:12:00 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/profile_creator.php on line 9
+[11-Aug-2022 18:15:24 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home/focusbdx/public_html/482/livesearch.php:48
+Stack trace:
+#0 /home/focusbdx/public_html/482/livesearch.php(48): array_push(NULL, 'listings/svetla...')
+#1 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 48
+[11-Aug-2022 18:15:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 18:16:04 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home/focusbdx/public_html/482/livesearch.php:48
+Stack trace:
+#0 /home/focusbdx/public_html/482/livesearch.php(48): array_push(NULL, 'listings/svetla...')
+#1 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 48
+[11-Aug-2022 18:16:22 UTC] PHP Warning:  Undefined array key "q" in /home/focusbdx/public_html/482/livesearch.php on line 15
+[11-Aug-2022 18:16:48 UTC] PHP Warning:  Undefined array key "q" in /home/focusbdx/public_html/482/livesearch.php on line 15
+[11-Aug-2022 18:16:51 UTC] PHP Warning:  Undefined array key "q" in /home/focusbdx/public_html/482/livesearch.php on line 15
+[11-Aug-2022 18:17:01 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home/focusbdx/public_html/482/livesearch.php:48
+Stack trace:
+#0 /home/focusbdx/public_html/482/livesearch.php(48): array_push(NULL, 'listings/svetla...')
+#1 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 48
+[11-Aug-2022 18:17:33 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home/focusbdx/public_html/482/livesearch.php:48
+Stack trace:
+#0 /home/focusbdx/public_html/482/livesearch.php(48): array_push(NULL, 'listings/svetla...')
+#1 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 48
+[11-Aug-2022 18:19:39 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, string given in /home/focusbdx/public_html/482/livesearch.php:61
+Stack trace:
+#0 /home/focusbdx/public_html/482/livesearch.php(61): array_push('ieatcake2018@gm...', 'example3@gmail....')
+#1 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 61
+[11-Aug-2022 18:20:19 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, string given in /home/focusbdx/public_html/482/livesearch.php:61
+Stack trace:
+#0 /home/focusbdx/public_html/482/livesearch.php(61): array_push('ieatcake2018@gm...', 'example3@gmail....')
+#1 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 61
+[11-Aug-2022 18:21:54 UTC] PHP Warning:  Undefined variable $name in /home/focusbdx/public_html/482/portfolio.php on line 216
+[11-Aug-2022 18:21:54 UTC] PHP Warning:  Undefined variable $port_pic in /home/focusbdx/public_html/482/portfolio.php on line 218
+[11-Aug-2022 18:21:54 UTC] PHP Warning:  Undefined variable $category in /home/focusbdx/public_html/482/portfolio.php on line 302
+[11-Aug-2022 18:21:54 UTC] PHP Warning:  Undefined variable $location in /home/focusbdx/public_html/482/portfolio.php on line 328
+[11-Aug-2022 18:26:10 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, string given in /home/focusbdx/public_html/482/livesearch.php:61
+Stack trace:
+#0 /home/focusbdx/public_html/482/livesearch.php(61): array_push('ieatcake2018@gm...', Object(DOMNodeList))
+#1 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 61
+[11-Aug-2022 18:26:49 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, string given in /home/focusbdx/public_html/482/livesearch.php:61
+Stack trace:
+#0 /home/focusbdx/public_html/482/livesearch.php(61): array_push('ieatcake2018@gm...', 'example3@gmail....')
+#1 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 61
+[11-Aug-2022 18:37:57 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, string given in /home/focusbdx/public_html/482/livesearch.php:63
+Stack trace:
+#0 /home/focusbdx/public_html/482/livesearch.php(63): array_push('ieatcake2018@gm...', 'example3@gmail....')
+#1 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 63
+[11-Aug-2022 18:40:05 UTC] PHP Warning:  Array to string conversion in /home/focusbdx/public_html/482/livesearch.php on line 62
+[11-Aug-2022 18:45:27 UTC] PHP Parse error:  syntax error, unexpected identifier "print_r" in /home/focusbdx/public_html/482/livesearch.php on line 17
+[11-Aug-2022 18:45:31 UTC] PHP Parse error:  syntax error, unexpected identifier "print_r" in /home/focusbdx/public_html/482/livesearch.php on line 17
+[11-Aug-2022 18:48:36 UTC] PHP Warning:  Undefined array key "q" in /home/focusbdx/public_html/482/livesearch.php on line 3
+[11-Aug-2022 18:49:18 UTC] PHP Warning:  Undefined array key "q" in /home/focusbdx/public_html/482/livesearch.php on line 3
+[11-Aug-2022 18:49:18 UTC] PHP Warning:  Undefined variable $all in /home/focusbdx/public_html/482/livesearch.php on line 12
+[11-Aug-2022 18:49:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on null in /home/focusbdx/public_html/482/livesearch.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 12
+[11-Aug-2022 18:49:32 UTC] PHP Warning:  Undefined array key "q" in /home/focusbdx/public_html/482/livesearch.php on line 3
+[11-Aug-2022 18:49:32 UTC] PHP Warning:  Undefined variable $all in /home/focusbdx/public_html/482/livesearch.php on line 12
+[11-Aug-2022 18:49:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on null in /home/focusbdx/public_html/482/livesearch.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 12
+[11-Aug-2022 18:49:41 UTC] PHP Warning:  Undefined variable $all in /home/focusbdx/public_html/482/livesearch.php on line 12
+[11-Aug-2022 18:49:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on null in /home/focusbdx/public_html/482/livesearch.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 12
+[11-Aug-2022 18:50:14 UTC] PHP Warning:  Undefined variable $all in /home/focusbdx/public_html/482/livesearch.php on line 12
+[11-Aug-2022 18:50:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on null in /home/focusbdx/public_html/482/livesearch.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 12
+[11-Aug-2022 18:50:43 UTC] PHP Warning:  Undefined array key "q" in /home/focusbdx/public_html/482/livesearch.php on line 3
+[11-Aug-2022 18:50:59 UTC] PHP Warning:  Undefined array key "q" in /home/focusbdx/public_html/482/livesearch.php on line 3
+[11-Aug-2022 18:50:59 UTC] PHP Warning:  Undefined variable $all in /home/focusbdx/public_html/482/livesearch.php on line 12
+[11-Aug-2022 18:50:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on null in /home/focusbdx/public_html/482/livesearch.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 12
+[11-Aug-2022 18:51:12 UTC] PHP Warning:  Undefined array key "q" in /home/focusbdx/public_html/482/livesearch.php on line 3
+[11-Aug-2022 18:51:12 UTC] PHP Warning:  Undefined variable $all_rows in /home/focusbdx/public_html/482/livesearch.php on line 12
+[11-Aug-2022 18:51:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on null in /home/focusbdx/public_html/482/livesearch.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 12
+[11-Aug-2022 18:51:37 UTC] PHP Warning:  Undefined array key "q" in /home/focusbdx/public_html/482/livesearch.php on line 3
+[11-Aug-2022 18:59:06 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/focusbdx/public_html/482/livesearch.php on line 18
+[11-Aug-2022 19:00:12 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/focusbdx/public_html/482/livesearch.php on line 18
+[11-Aug-2022 19:01:02 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/focusbdx/public_html/482/livesearch.php on line 18
+[11-Aug-2022 19:01:06 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/focusbdx/public_html/482/livesearch.php on line 18
+[11-Aug-2022 19:20:38 UTC] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home/focusbdx/public_html/482/livesearch.php:37
+Stack trace:
+#0 /home/focusbdx/public_html/482/livesearch.php(37): array_push(NULL, 'svetlanavodka2@...')
+#1 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 37
+[11-Aug-2022 19:21:37 UTC] PHP Warning:  Undefined variable $array in /home/focusbdx/public_html/482/livesearch.php on line 37
+[11-Aug-2022 19:21:37 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: null + array in /home/focusbdx/public_html/482/livesearch.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/livesearch.php on line 37
+[11-Aug-2022 19:42:49 UTC] PHP Warning:  Undefined array key "4099b189909cfe813a5ea77934cc4938" in /home/focusbdx/public_html/482/listing_creator.php on line 158
+[11-Aug-2022 19:43:20 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[11-Aug-2022 19:43:29 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[11-Aug-2022 19:43:41 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[11-Aug-2022 19:48:13 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/set_cookie.php on line 7
+[11-Aug-2022 19:48:13 UTC] PHP Warning:  Undefined variable $_SESSION in /home/focusbdx/public_html/482/set_cookie.php on line 9
+[11-Aug-2022 19:48:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/focusbdx/public_html/482/set_cookie.php on line 9
+[11-Aug-2022 19:50:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/set_cookie.php on line 7
+[11-Aug-2022 19:50:32 UTC] PHP Warning:  Undefined variable $_SESSION in /home/focusbdx/public_html/482/set_cookie.php on line 9
+[11-Aug-2022 19:50:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/focusbdx/public_html/482/set_cookie.php on line 9
+[11-Aug-2022 19:51:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/focusbdx/public_html/482/set_cookie.php on line 7
+[11-Aug-2022 19:51:02 UTC] PHP Warning:  Undefined variable $_SESSION in /home/focusbdx/public_html/482/set_cookie.php on line 9
+[11-Aug-2022 19:51:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/focusbdx/public_html/482/set_cookie.php on line 9
+[11-Aug-2022 19:57:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/log.php:25) in /home/focusbdx/public_html/482/log.php on line 26
+[11-Aug-2022 19:57:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/reg.php:27) in /home/focusbdx/public_html/482/reg.php on line 28
+[11-Aug-2022 19:57:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 19:58:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 19:59:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 20:04:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 20:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 20:06:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 61
+[11-Aug-2022 20:07:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 64
+[11-Aug-2022 20:07:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 62
+[11-Aug-2022 20:08:47 UTC] PHP Warning:  Undefined variable $conn in /home/focusbdx/public_html/482/log.php on line 90
+[11-Aug-2022 20:08:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/focusbdx/public_html/482/log.php:90
+Stack trace:
+#0 /home/focusbdx/public_html/482/log.php(62): setStatus('ahnaf.abid22@gm...', 'NO')
+#1 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 90
+[11-Aug-2022 20:12:56 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/focusbdx/public_html/482/log.php on line 123
+[11-Aug-2022 20:14:22 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/focusbdx/public_html/482/log.php on line 121
+[11-Aug-2022 20:14:56 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/focusbdx/public_html/482/log.php on line 123
+[11-Aug-2022 20:19:54 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/focusbdx/public_html/482/log.php on line 22
+[11-Aug-2022 20:20:06 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/focusbdx/public_html/482/log.php on line 22
+[11-Aug-2022 20:21:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/focusbdx/public_html/482/log.php on line 38
+[11-Aug-2022 20:21:12 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/focusbdx/public_html/482/log.php:40
+Stack trace:
+#0 /home/focusbdx/public_html/482/log.php(40): mysqli->query('SELECT * FROM p...')
+#1 /home/focusbdx/public_html/482/log.php(28): setStatus('svetlanavodka3@...', 'NO')
+#2 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 40
+[11-Aug-2022 20:22:27 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 4
+[11-Aug-2022 20:22:27 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 6
+[12-Aug-2022 13:26:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/log.php:24) in /home/focusbdx/public_html/482/log.php on line 25
+[12-Aug-2022 13:27:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/reg.php:27) in /home/focusbdx/public_html/482/reg.php on line 28
+[12-Aug-2022 13:27:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 43
+[12-Aug-2022 13:27:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 43
+[12-Aug-2022 13:46:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/reg.php:27) in /home/focusbdx/public_html/482/reg.php on line 28
+[12-Aug-2022 13:47:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/reg.php:27) in /home/focusbdx/public_html/482/reg.php on line 28
+[12-Aug-2022 13:48:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 43
+[12-Aug-2022 13:48:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/reg.php:27) in /home/focusbdx/public_html/482/reg.php on line 28
+[12-Aug-2022 13:48:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 43
+[17-Aug-2022 04:45:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 43
+[19-Aug-2022 15:27:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/reg.php:27) in /home/focusbdx/public_html/482/reg.php on line 28
+[19-Aug-2022 15:27:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/reg.php:27) in /home/focusbdx/public_html/482/reg.php on line 28
+[19-Aug-2022 15:27:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 43
+[19-Aug-2022 15:34:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setStatus() in /home/focusbdx/public_html/482/log.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/log.php on line 43
+[19-Aug-2022 15:52:27 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 4
+[19-Aug-2022 15:52:27 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 6
+[19-Aug-2022 15:52:36 UTC] PHP Warning:  Undefined variable $name in /home/focusbdx/public_html/482/portfolio.php on line 216
+[19-Aug-2022 15:52:36 UTC] PHP Warning:  Undefined variable $port_pic in /home/focusbdx/public_html/482/portfolio.php on line 218
+[19-Aug-2022 15:52:36 UTC] PHP Warning:  Undefined variable $category in /home/focusbdx/public_html/482/portfolio.php on line 302
+[19-Aug-2022 15:52:36 UTC] PHP Warning:  Undefined variable $location in /home/focusbdx/public_html/482/portfolio.php on line 328
+[21-Aug-2022 17:58:09 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/search.php on line 53
+[21-Aug-2022 17:58:12 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/search.php on line 53
+[21-Aug-2022 18:09:03 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $location in /home/focusbdx/public_html/482/fb_auth.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/fb_auth.php on line 6
+[21-Aug-2022 18:13:10 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/fb_auth.php on line 4
+[21-Aug-2022 18:13:16 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/fb_auth.php on line 4
+[21-Aug-2022 18:13:29 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/fb_auth.php on line 4
+[22-Aug-2022 08:38:09 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/search.php on line 53
+[22-Aug-2022 09:31:48 UTC] PHP Warning:  Undefined variable $name in /home/focusbdx/public_html/482/portfolio.php on line 216
+[22-Aug-2022 09:31:48 UTC] PHP Warning:  Undefined variable $port_pic in /home/focusbdx/public_html/482/portfolio.php on line 218
+[22-Aug-2022 09:31:48 UTC] PHP Warning:  Undefined variable $category in /home/focusbdx/public_html/482/portfolio.php on line 302
+[22-Aug-2022 09:31:48 UTC] PHP Warning:  Undefined variable $location in /home/focusbdx/public_html/482/portfolio.php on line 328
+[22-Aug-2022 14:23:31 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/search.php on line 53
+[22-Aug-2022 14:27:52 UTC] PHP Warning:  Undefined array key "acb479080840025a9c03f8453f5c853c" in /home/focusbdx/public_html/482/listing_creator.php on line 158
+[22-Aug-2022 14:27:52 UTC] PHP Warning:  Undefined variable $profile_pic in /home/focusbdx/public_html/482/listing_creator.php on line 164
+[22-Aug-2022 16:51:34 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 4
+[22-Aug-2022 16:51:34 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 6
+[22-Aug-2022 17:04:28 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 3
+[22-Aug-2022 17:13:15 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 3
+[22-Aug-2022 17:17:53 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 3
+[22-Aug-2022 17:23:06 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/profile_creator.php on line 9
+[22-Aug-2022 17:23:26 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 3
+[22-Aug-2022 17:28:40 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 3
+[22-Aug-2022 18:00:11 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 5
+[22-Aug-2022 18:00:17 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 5
+[22-Aug-2022 18:01:21 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 5
+[22-Aug-2022 18:01:27 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 5
+[22-Aug-2022 18:03:44 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 5
+[22-Aug-2022 18:03:50 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 5
+[22-Aug-2022 18:04:10 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 5
+[22-Aug-2022 18:07:26 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 5
+[22-Aug-2022 18:09:33 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 5
+[22-Aug-2022 18:09:41 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 5
+[22-Aug-2022 18:09:46 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 5
+[22-Aug-2022 18:15:40 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 7
+[22-Aug-2022 18:20:48 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 7
+[22-Aug-2022 18:20:48 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 11
+[22-Aug-2022 18:21:16 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 7
+[22-Aug-2022 18:21:22 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 7
+[22-Aug-2022 18:23:56 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 7
+[22-Aug-2022 18:27:04 UTC] PHP Warning:  Undefined variable $_SESSION in /home/focusbdx/public_html/482/images_upload.php on line 23
+[22-Aug-2022 18:27:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/focusbdx/public_html/482/images_upload.php on line 23
+[22-Aug-2022 18:28:12 UTC] PHP Warning:  Undefined variable $conn2 in /home/focusbdx/public_html/482/images_upload.php on line 290
+[22-Aug-2022 18:28:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/focusbdx/public_html/482/images_upload.php:290
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/images_upload.php on line 290
+[22-Aug-2022 18:29:49 UTC] PHP Warning:  Undefined variable $conn2 in /home/focusbdx/public_html/482/images_upload.php on line 290
+[22-Aug-2022 18:29:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/focusbdx/public_html/482/images_upload.php:290
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/images_upload.php on line 290
+[22-Aug-2022 18:29:51 UTC] PHP Warning:  Undefined variable $conn2 in /home/focusbdx/public_html/482/images_upload.php on line 290
+[22-Aug-2022 18:29:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/focusbdx/public_html/482/images_upload.php:290
+Stack trace:
+#0 {main}
+  thrown in /home/focusbdx/public_html/482/images_upload.php on line 290
+[22-Aug-2022 18:38:19 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[22-Aug-2022 18:42:07 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[22-Aug-2022 18:43:34 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[22-Aug-2022 18:46:57 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[22-Aug-2022 18:48:44 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[22-Aug-2022 18:51:00 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[22-Aug-2022 18:53:23 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[22-Aug-2022 19:02:24 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'focusbdx_demo1'@'lxbd.alpha.net.bd' (using password: YES) in /home/focusbdx/public_html/482/listings_test.php on line 3
+[22-Aug-2022 19:07:48 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 7
+[22-Aug-2022 19:07:48 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 11
+[23-Aug-2022 06:00:53 UTC] PHP Warning:  Undefined array key "8b0f230ec61396df026ff0e6ed8c762e" in /home/focusbdx/public_html/482/listing_creator.php on line 315
+[23-Aug-2022 06:01:04 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[23-Aug-2022 07:28:42 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 7
+[23-Aug-2022 07:28:42 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 11
+[23-Aug-2022 07:28:58 UTC] PHP Warning:  Undefined variable $name in /home/focusbdx/public_html/482/portfolio.php on line 216
+[23-Aug-2022 07:28:58 UTC] PHP Warning:  Undefined variable $port_pic in /home/focusbdx/public_html/482/portfolio.php on line 218
+[23-Aug-2022 07:28:58 UTC] PHP Warning:  Undefined variable $category in /home/focusbdx/public_html/482/portfolio.php on line 302
+[23-Aug-2022 07:28:58 UTC] PHP Warning:  Undefined variable $location in /home/focusbdx/public_html/482/portfolio.php on line 328
+[23-Aug-2022 07:29:32 UTC] PHP Warning:  Undefined array key "82f24ca071cd6f46ab064124bb97e42b" in /home/focusbdx/public_html/482/listing_creator.php on line 315
+[23-Aug-2022 07:29:32 UTC] PHP Warning:  Undefined variable $profile_pic in /home/focusbdx/public_html/482/listing_creator.php on line 327
+[23-Aug-2022 07:31:51 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[23-Aug-2022 07:31:58 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/images_upload.php on line 3
+[23-Aug-2022 07:32:24 UTC] PHP Warning:  Undefined variable $name in /home/focusbdx/public_html/482/portfolio.php on line 216
+[23-Aug-2022 07:32:24 UTC] PHP Warning:  Undefined variable $port_pic in /home/focusbdx/public_html/482/portfolio.php on line 218
+[23-Aug-2022 07:32:24 UTC] PHP Warning:  Undefined variable $category in /home/focusbdx/public_html/482/portfolio.php on line 302
+[23-Aug-2022 07:32:24 UTC] PHP Warning:  Undefined variable $location in /home/focusbdx/public_html/482/portfolio.php on line 328
+[23-Aug-2022 14:09:26 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/search.php on line 105
+[23-Aug-2022 14:09:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/focusbdx/public_html/482/log.php:24) in /home/focusbdx/public_html/482/log.php on line 25
+[23-Aug-2022 14:10:11 UTC] PHP Warning:  Undefined variable $name in /home/focusbdx/public_html/482/portfolio.php on line 216
+[23-Aug-2022 14:10:11 UTC] PHP Warning:  Undefined variable $port_pic in /home/focusbdx/public_html/482/portfolio.php on line 218
+[23-Aug-2022 14:10:11 UTC] PHP Warning:  Undefined variable $category in /home/focusbdx/public_html/482/portfolio.php on line 302
+[23-Aug-2022 14:10:11 UTC] PHP Warning:  Undefined variable $location in /home/focusbdx/public_html/482/portfolio.php on line 328
+[23-Aug-2022 14:10:14 UTC] PHP Warning:  Undefined variable $name in /home/focusbdx/public_html/482/portfolio.php on line 216
+[23-Aug-2022 14:10:14 UTC] PHP Warning:  Undefined variable $port_pic in /home/focusbdx/public_html/482/portfolio.php on line 218
+[23-Aug-2022 14:10:14 UTC] PHP Warning:  Undefined variable $category in /home/focusbdx/public_html/482/portfolio.php on line 302
+[23-Aug-2022 14:10:14 UTC] PHP Warning:  Undefined variable $location in /home/focusbdx/public_html/482/portfolio.php on line 328
+[23-Aug-2022 16:45:07 UTC] PHP Warning:  Undefined variable $name in /home/focusbdx/public_html/482/portfolio.php on line 216
+[23-Aug-2022 16:45:07 UTC] PHP Warning:  Undefined variable $port_pic in /home/focusbdx/public_html/482/portfolio.php on line 218
+[23-Aug-2022 16:45:07 UTC] PHP Warning:  Undefined variable $category in /home/focusbdx/public_html/482/portfolio.php on line 302
+[23-Aug-2022 16:45:07 UTC] PHP Warning:  Undefined variable $location in /home/focusbdx/public_html/482/portfolio.php on line 328
+[24-Aug-2022 05:37:50 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/profile_creator.php on line 9
+[24-Aug-2022 05:39:51 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 5
+[24-Aug-2022 06:08:46 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 7
+[24-Aug-2022 06:08:46 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 11
+[24-Aug-2022 08:47:29 UTC] PHP Warning:  Undefined array key "4099b189909cfe813a5ea77934cc4938" in /home/focusbdx/public_html/482/listing_creator.php on line 315
+[24-Aug-2022 08:48:00 UTC] PHP Warning:  Undefined variable $name in /home/focusbdx/public_html/482/portfolio.php on line 216
+[24-Aug-2022 08:48:00 UTC] PHP Warning:  Undefined variable $port_pic in /home/focusbdx/public_html/482/portfolio.php on line 218
+[24-Aug-2022 08:48:00 UTC] PHP Warning:  Undefined variable $category in /home/focusbdx/public_html/482/portfolio.php on line 302
+[24-Aug-2022 08:48:00 UTC] PHP Warning:  Undefined variable $location in /home/focusbdx/public_html/482/portfolio.php on line 328
+[09-Sep-2022 07:19:35 UTC] PHP Warning:  Undefined variable $name in /home/focusbdx/public_html/482/portfolio.php on line 216
+[09-Sep-2022 07:19:35 UTC] PHP Warning:  Undefined variable $port_pic in /home/focusbdx/public_html/482/portfolio.php on line 218
+[09-Sep-2022 07:19:35 UTC] PHP Warning:  Undefined variable $category in /home/focusbdx/public_html/482/portfolio.php on line 302
+[09-Sep-2022 07:19:35 UTC] PHP Warning:  Undefined variable $location in /home/focusbdx/public_html/482/portfolio.php on line 328
+[01-Oct-2022 10:30:00 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/search.php on line 105
+[15-Oct-2022 15:05:28 UTC] PHP Warning:  mkdir(): File exists in /home/focusbdx/public_html/482/set_dp.php on line 5
+[15-Oct-2022 15:12:13 UTC] PHP Warning:  Undefined array key "stripeToken" in /home/focusbdx/public_html/482/checkout-charge.php on line 7
+[15-Oct-2022 15:12:13 UTC] PHP Warning:  Undefined array key "stripeTokenType" in /home/focusbdx/public_html/482/checkout-charge.php on line 11
+[19-Oct-2022 16:45:41 UTC] PHP Warning:  Undefined array key "email" in /home/focusbdx/public_html/482/profile_creator.php on line 9

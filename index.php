@@ -1,0 +1,374 @@
+<?php
+
+session_start();
+header("Expires: Sat, 26 Jul 2037 05:00:00 GMT"); // Date in the future
+
+
+
+if(isset($_SESSION['email'])){
+
+  $ses_id=md5($_SESSION['email']);
+
+    $email=$_SESSION['email'];
+
+    $conn = new mysqli('192.168.10.5','focusbdx_demo1','XHQsAJV#7zZT','focusbdx_fotoboo');
+
+if($conn->connect_error){
+
+    echo "$conn->connect_error";
+
+    die("Connection Failed : ". $conn->connect_error);
+
+}
+
+else{
+
+    $sql = "SELECT * FROM profiles";
+
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+
+      // output data of each row
+
+      while($row = $result->fetch_assoc()) {
+
+        if($row['email']==$email){
+
+            $profile_pic=$row['profile_pic'];
+
+        }
+
+      } 
+
+}
+
+}
+
+}
+
+
+
+?>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="FotoBoo : A website for finding and hiring photographers for your events such as birthdays, weddings and programmes.">
+
+    <title>FotoBoo</title>
+
+    <link rel="icon" type="image" href="images/favicon.webp">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous" defer></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    
+
+</head>
+
+<body>
+
+  <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+
+    <a href="index.php" class="navbar-brand"><img src="images/logo.webp" alt="logo" width="130px" height="92px"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+
+          <a href="register.php" class="nav-link">Register</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a href="login.php" class="nav-link">Login</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a href="contact.php" class="nav-link">Contact</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a href="search.php" class="nav-link" <?php if(isset($_SESSION['email'])){echo "";}else{echo "hidden";} ?>>Search</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a href="listing_creator.php" class="nav-link" <?php if(isset($_SESSION['email'])){echo "";}else{echo "hidden";} ?>>Create listing</a>
+
+        </li>
+
+      </ul>
+
+      <ul class="navbar-nav"> 
+
+      <li class="nav-item">
+
+      <a href="profile_creator.php" class="nav-link">  <?php if(isset($_SESSION['email'])&&isset($_COOKIE[$ses_id])){echo $_COOKIE[$ses_id];}else{echo "";}  ?></a>
+
+        </li>        
+
+        <li class="nav-item">
+
+        <a href="<?php if(isset($_SESSION['email'])){echo "profile_creator.php";}else{echo "login.php";} ?>" class="navbar-brand"><img class="img-fluid img-thumbnail" src="<?php if(isset($_SESSION['email'])&&isset($profile_pic)){echo $profile_pic;}else{echo "images/default_pic.webp";} ?>" alt="profile pic" width="130px" height="92px"></a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a href="destroy_session.php" class="nav-link" <?php if(isset($_SESSION['email'])){echo "";}else{echo "hidden";} ?>>Logout</a>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+  </nav>
+
+
+
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" style="background-image: url('images/bg.webp');">
+
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+
+        <h1 class="display-4 font-weight-normal">Looking for photographers?</h1>
+
+        <p class="lead font-weight-normal">Well, look no further!</p>
+
+        <a class="btn btn-outline-secondary" href="register.php">Register now</a>
+
+      </div>
+
+      <div class="product-device box-shadow d-none d-md-block"></div>
+
+      <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+
+    </div>
+
+
+
+
+
+  <div class="b-example-divider"></div>
+
+
+
+  <div class="container px-4 py-5" id="custom-cards">
+
+    <h2 class="pb-2 border-bottom">Our Features</h2>
+
+
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+      <div class="col">
+
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/card1.webp');">
+
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Diverse photographers</h2>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="col">
+
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/card2.webp');">
+
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Search by location or category</h2>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="col">
+
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/card3.webp');">
+
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Digital payment system</h2>
+
+            <ul class="d-flex list-unstyled mt-auto">
+
+              <li class="me-auto">
+
+                
+
+              </li>
+
+              <li class="d-flex align-items-center me-3">
+
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+
+                <small></small>
+
+              </li>
+
+              <li class="d-flex align-items-center">
+
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+
+                <small></small>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <footer class="bg-dark text-center text-white">
+
+  <!-- Grid container -->
+
+  <div class="container p-4 pb-0">
+
+    <!-- Section: Social media -->
+
+    <section class="mb-4">
+
+      <!-- Facebook -->
+
+      <a name="facebook" class="btn btn-outline-light btn-floating m-1" href="facebook.com" role="button"
+
+        ><i class="fa-brands fa-square-facebook"></i></a>
+
+
+
+      <!-- Twitter -->
+
+      <a name="twitter" class="btn btn-outline-light btn-floating m-1" href="twitter.com" role="button"
+
+        ><i class="fab fa-twitter"></i
+
+      ></a>
+
+
+
+      <!-- Google -->
+
+      <a name="google" class="btn btn-outline-light btn-floating m-1" href="google.com" role="button"
+
+        ><i class="fab fa-google"></i
+
+      ></a>
+
+
+
+      <!-- Instagram -->
+
+      <a name="instagram" class="btn btn-outline-light btn-floating m-1" href="instagram.com" role="button"
+
+        ><i class="fab fa-instagram"></i
+
+      ></a>
+
+
+
+      <!-- Linkedin -->
+
+      <a name="linkedin" class="btn btn-outline-light btn-floating m-1" href="linkedin.com" role="button"
+
+        ><i class="fab fa-linkedin-in"></i
+
+      ></a>
+
+
+
+      <!-- Github -->
+
+      <a name="github" class="btn btn-outline-light btn-floating m-1" href="github.com" role="button"
+
+        ><i class="fab fa-github"></i
+
+      ></a>
+
+    </section>
+
+    <!-- Section: Social media -->
+
+  </div>
+
+  <!-- Grid container -->
+
+
+
+  <!-- Copyright -->
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+
+    © 2022 Copyright:
+
+    <a class="text-white" href="#">Group 3</a>
+
+  </div>
+
+  <!-- Copyright -->
+
+</footer>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" defer />
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
